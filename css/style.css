@@ -261,6 +261,40 @@ h1 {
   cursor: pointer;
 }
 
+/* Get to know the best team section */
+#get-to-know-container {
+  background-color: #3CDDF3;
+  display: flex;
+  flex-direction: column;
+  height: 366px;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 60px 30px 60px;
+}
+
+.get-to-know-title {
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47.84px;
+  margin-bottom: 40px;
+}
+
+.get-to-know-btn {
+  background-color: #232C50;
+  box-shadow: 0px 4px 8px 0px #00000040;
+  border: none;
+  border-radius: 50px;
+  color: #FFFFFF;
+  font-size: 13.18px;
+  font-weight: 500;
+  height: 44px;
+  width: 134px;
+}
+
+.get-to-know-btn:hover {
+  cursor: pointer;
+}
 
 /* Footer */
 
@@ -377,5 +411,19 @@ h1 {
 
   .best-month-card {
     width: 445px;
+  }
+
+  /* Get to know the best team section */
+  #get-to-know-container {
+  background-color: #8B48BF;
+  flex-direction: row;
+  height: 224px;
+  align-items: center;
+  justify-content: space-around;
+  }
+
+  .get-to-know-btn {
+  background-color: #FFFFFF;
+  color: #8B48BF;
   }
 }
