@@ -204,18 +204,22 @@ h1 {
 
 .best-month-card {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-top: 70px;
+  width: 100%;
 }
-
 #best-month-avatar {
-  position: absolute;
-  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #best-month-avatar > img {
   height: 70px;
   width: 70px;
+  padding: 10px;
 }
 
 .best-month-content {
@@ -223,12 +227,12 @@ h1 {
   align-items: center;
   background-color: #fafafa;
   flex-direction: column;
-  height: 219px;
+  /* height: 219px; */
   justify-content: flex-end;
   position: relative;
   padding-right: 10px;
   padding-left: 10px;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
   width: 100%;
 }
 
@@ -243,6 +247,7 @@ h1 {
   color: #b9b9c1;
   font-weight: 500;
   line-height: 25.06px;
+  padding: px;
 }
 
 .best-button-container {
