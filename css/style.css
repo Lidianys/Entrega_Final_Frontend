@@ -319,7 +319,7 @@ footer {
 .icon-logo-wrapper {
   display: flex;
   flex-direction: column-reverse;
-  gap: 50px;
+  gap: 40px;
   width: 100%;
 }
 
@@ -595,6 +595,7 @@ form {
 
   .icon-logo-wrapper {
     flex-direction: column;
+    gap: 90px;
     justify-content: flex-start;
     width: auto;
   }
