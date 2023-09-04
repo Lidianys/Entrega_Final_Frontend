@@ -143,11 +143,11 @@
       </section>
     </main>
     <footer>
-      <div>
-        <article>
-          <img src="imagenes/logo.svg" alt="Logo" />
+      <div class="icon-logo-wrapper">
+        <article id="footer-logo-container">
+          <img src="imagenes/logo-footer.svg" alt="Logo Footer" />
         </article>
-        <article>
+        <article class="footer-icons-container">
           <img src="imagenes/icon-facebook.svg" alt="Logo Facebook" />
           <img src="imagenes/icon-youtube.svg" alt="Logo Youtube" />
           <img src="imagenes/icon-twitter.svg" alt="Logo Twitter" />
@@ -155,8 +155,8 @@
           <img src="imagenes/icon-instagram.svg" alt="Logo Instagram" />
         </article>
       </div>
-      <article>
-        <ul>
+      <article class="footer-list-container">
+        <ul class="footer-list" type="none">
           <li>Home</li>
           <li>Pricing</li>
           <li>Products</li>
@@ -166,11 +166,18 @@
           <li>Privacy Policy</li>
         </ul>
       </article>
-      <article>
+      <article class="form-container">
         <form method="" action="">
-          <input type="text" name="update" id="update" value="Update in your inbox..." />
-          <button type="submit">Go</button>
+          <input
+            type="text"
+            name="update"
+            id="update"
+            value="Update in your inbox..."
+            class="update-input"
+          />
+          <button type="submit" class="footer-submit-btn">Go</button>
         </form>
+        <p class="footer-copyright">Copyright 2020. All Rights Reserved</p>
       </article>
     </footer>
   </body>

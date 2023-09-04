@@ -311,9 +311,100 @@ h1 {
 }
 
 /* Footer */
+footer {
+  display: flex;
+  align-items: center;
+  background-color: #1E1E26;
+  flex-direction: column-reverse;
+  height: 534.71px;
+  justify-content: space-evenly;
+}
+
+.icon-logo-wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 50px;
+  width: 100%;
+}
+
+.icon-logo-wrapper::before {
+  content: "Copyright 2020. All Rights Reserved";
+  color: #8C8C94;
+  font-size: 12.5px;
+  font-weight: 500;
+  text-align: center;
+}
+
+#footer-logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+#footer-logo-container > img {
+  fill: #FFFFFF;
+}
+
+.footer-icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  height: 161.14px;
+  justify-content: flex-start;
+  padding: 10px 10px;
+  width: 344px;
+}
+
+.footer-list > li {
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+}
+
+.update-input {
+  border: none;
+  border-radius: 50px;
+  color: #A0A0A0;
+  font-size: 13.18px;
+  font-weight: 600;
+  height: 44px;
+  padding: 10px 20px;
+  width: 308px;
+}
+
+.footer-submit-btn {
+  background-color: #8B48BF;
+  border: none;
+  border-radius: 50px;
+  color: #FFFFFF;
+  font-size: 13.18px;
+  font-weight: 500;
+  height: 42px;
+  padding: 10px;
+  width: 63px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-copyright {
+  display: none;
+}
 
 /* Desktop responsive */
-
 @media (min-width: 480px) {
   /* Header */
   nav > button {
@@ -495,4 +586,52 @@ h1 {
     background-color: #ffffff;
     color: #8b48bf;
   }
+
+  /* Footer */
+  footer {
+    flex-direction: row;
+    height: 247px;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .icon-logo-wrapper::before {
+    display: none;
+  }
+
+  .icon-logo-wrapper {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: auto;
+  }
+
+  .footer-icons-container {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  #footer-logo-container {
+    justify-content: flex-start;
+  }
+
+  .footer-list {
+    align-content: space-between;
+    width: 392.73px;
+  }
+
+  .form-container {
+    flex-direction: column;
+    align-items: space-around;
+    height: 100%;
+    justify-content: space-around;
+  }
+
+  .footer-copyright {
+    display: block;
+    color: #8C8C94;
+    font-size: 12.5px;
+    font-weight: 500;
+    text-align: right;
+  }
+  
 }
