@@ -49,7 +49,7 @@ main {
   flex-wrap: wrap;
 }
 
-/* Padel  */
+/* Padel section */
 .padel-content {
   display: flex;
   flex-direction: column;
@@ -68,10 +68,6 @@ main {
   background-repeat: no-repeat;
 }
 
-#img-padel {
-  width: 100%;
-  padding: 10px;
-}
 .padel-text-content {
   display: flex;
   padding: 10px;
@@ -106,7 +102,7 @@ h1 {
   width: 134px;
 }
 
-/* Differencies */
+/* Differencies section*/
 .differences-content {
   display: flex;
   flex-direction: column;
@@ -135,7 +131,7 @@ h1 {
   display: none;
 }
 
-/* Group-Differences */
+/* Group-Differences section*/
 .group-differences-main-content {
   display: flex;
   flex-direction: column;
@@ -184,14 +180,14 @@ h1 {
   text-align: start;
 }
 
-/* Best of the month */
+/* Best of the month section*/
 .best-of-the-month-container {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 50px;
 }
 
-#best-month-title {
+.best-month-title {
   color: #242e53;
   font-size: 39.21px;
   font-weight: 700;
@@ -211,7 +207,7 @@ h1 {
   margin-top: 70px;
   width: 100%;
 }
-#best-month-avatar {
+.best-month-avatar {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -220,7 +216,7 @@ h1 {
   z-index: 2;
 }
 
-#best-month-avatar > img {
+.best-month-avatar > img {
   height: 70px;
   width: 70px;
 }
@@ -314,7 +310,7 @@ h1 {
 footer {
   display: flex;
   align-items: center;
-  background-color: #1E1E26;
+  background-color: #1e1e26;
   flex-direction: column-reverse;
   height: 534.71px;
   justify-content: space-evenly;
@@ -329,7 +325,7 @@ footer {
 
 .icon-logo-wrapper::before {
   content: "Copyright 2020. All Rights Reserved";
-  color: #8C8C94;
+  color: #8c8c94;
   font-size: 12.5px;
   font-weight: 500;
   text-align: center;
@@ -359,7 +355,7 @@ footer {
 }
 
 .footer-list > li {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 400;
 }
 
@@ -371,7 +367,7 @@ form {
 .update-input {
   border: none;
   border-radius: 50px;
-  color: #A0A0A0;
+  color: #a0a0a0;
   font-size: 13.18px;
   font-weight: 600;
   height: 44px;
@@ -380,10 +376,10 @@ form {
 }
 
 .footer-submit-btn {
-  background-color: #8B48BF;
+  background-color: #8b48bf;
   border: none;
   border-radius: 50px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 13.18px;
   font-weight: 500;
   height: 42px;
@@ -434,6 +430,10 @@ form {
     font-weight: 500;
   }
 
+  nav > ul > li:hover {
+    cursor: pointer;
+    color: rgba(36, 46, 82, 0.6);
+  }
   .contact-button {
     background-color: #8b48bf;
     border: none;
@@ -468,13 +468,7 @@ form {
     padding-left: 70px;
     padding-right: 70px;
   }
-  #img-padel {
-    /* width: 540px;
-    height: 461.07px; */
-    /* max-width: 100%;
-    padding: 0; */
-    width: auto;
-  }
+
   h1,
   #padel-text,
   .contact-button {
@@ -490,19 +484,18 @@ form {
     height: 168px;
     width: 100%;
   }
-  .title-content{
+  .title-content {
     width: 50%;
     display: flex;
-    justify-content:center ;
-
+    justify-content: center;
   }
-  .different-text-contet{
+  .different-text-contet {
     width: 50%;
   }
   .differences-title {
     width: 80%;
   }
-  
+
   .differences-text-movil {
     display: none;
     width: 80%;
@@ -545,9 +538,7 @@ form {
     width: 530px;
   }
   .number-and-title-content {
-   
     background: white;
-  
   }
 
   /* Best of the month */
@@ -625,10 +616,9 @@ form {
 
   .footer-copyright {
     display: block;
-    color: #8C8C94;
+    color: #8c8c94;
     font-size: 12.5px;
     font-weight: 500;
     text-align: right;
   }
-  
 }
