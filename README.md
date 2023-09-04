@@ -1,41 +1,33 @@
-## El reto
+## Proyecto final de Front end 1
 
-Su desafío es crear esta página de destino y hacer que se parezca lo más posible al diseño.
+En este proyecto creamos una página web responsive utilizando las tecnologías de `HTML y CSS `.
 
-Sus usuarios deberían poder:
+En nuestro producto usamos:
 
-- Ver el diseño óptimo para el sitio según el tamaño de la pantalla de su dispositivo
-- Los aspectos que tendremos en cuenta para la corrección serán los siguientes:
-  -Estructura correcta de HTML
-  -Uso y correcta implementación de etiquetas semánticas
-  -Adaptabilidad a dos tipos de dispositivos
-  -Correcta implementación del fomulario
-  -Imagens, iconos, fuentes, background
-  -Implementación de Flexbox
-  -Buenas Practicas en el CSS
-  -Pseudoelementos y Pseudoclases
-  -(opcional) ---> Pequeñas animaciones
+- Estructuras semánticas en HTML.
+- Estrategía de diseño Mobile-first.
+- Uso de media query.
+- Principalmente ocupamos flexbox para posicionar los elementos.
+ 
 
-## Dónde encontrar todo
+## ¿Cómo trabajamos en equipo?
 
-Su tarea es construir el proyecto con los diseños dentro de la carpeta `/ diseño`. Encontrará una versión móvil y de escritorio del diseño.
+Nuestro trabajo en equipo lo basamos en:
 
-El diseño para mobile esta en formato estático JPG. Si desea hacerle cambios esteticos lo puede hacer a su gusto
+1- Una comunicación constante y trabajo colaborativo.
 
-Encontrará todos los recursos necesarios en la carpeta `/ imagenes`. Los activos ya están optimizados.
+2-Hicimos pair programming para definir los elementos semánticos de nuestro HTML y establecer la estructura de nuestro proyecto.
 
-También hay un archivo `style-guide.md` que contiene la información necesaria, como la paleta de colores y las fuentes.
+3-Nos dividimos las secciones para aplicarles estilos de CSS individualmente aunque estuvimos comunicandonos y apoyandonos en cada paso.
 
-## Construyendo tu proyecto
+4-Ocupamos la herramienta de Git y Github para poder compartirnos las diferentes versiones que fuimos creando.
 
-No dude en utilizar cualquier flujo de trabajo con el que se sienta cómodo. A continuación se muestra un proceso sugerido:
 
-1. Revise los diseños para comenzar a planificar cómo abordará el proyecto. Este paso es crucial para ayudarlo a pensar en el futuro para que las clases de CSS creen estilos reutilizables.
-2. Antes de agregar cualquier estilo, estructure su contenido con HTML. Escribir su HTML primero puede ayudarlo a enfocar su atención en la creación de contenido bien estructurado.
-3. Escriba los estilos base para su proyecto, incluidos los estilos de contenido general, como `font-family` y` font-size`.
-4. Comience a agregar estilos en la parte superior de la página y continúe hacia abajo.
-5. Deje comentarios en el codigo en caso que lo crea necesario
+## ¿Cómo fue la experiencia?
 
-## Envío de su solución
+Fue una experiencia muy positiva, que nos permitió poner en práctica lo aprendido en clases y también aplicar la agilidad en nuestro proceso creativo.
 
-Envíe su solución en el google forms adjunto en PG, por favor adjuntar un archivo ZIP.
+
+## Miembros del equipo
+
+       Lidianys Rodríguez  //  Victoria Ancalaf
