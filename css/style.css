@@ -68,10 +68,6 @@ main {
   background-repeat: no-repeat;
 }
 
-#img-padel {
-  width: 100%;
-  padding: 10px;
-}
 .padel-text-content {
   display: flex;
   padding: 10px;
@@ -191,7 +187,7 @@ h1 {
   padding-top: 50px;
 }
 
-#best-month-title {
+.best-month-title {
   color: #242e53;
   font-size: 39.21px;
   font-weight: 700;
@@ -211,7 +207,7 @@ h1 {
   margin-top: 70px;
   width: 100%;
 }
-#best-month-avatar {
+.best-month-avatar {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -220,7 +216,7 @@ h1 {
   z-index: 2;
 }
 
-#best-month-avatar > img {
+.best-month-avatar > img {
   height: 70px;
   width: 70px;
 }
@@ -438,6 +434,10 @@ form {
     font-weight: 500;
   }
 
+  nav > ul > li:hover {
+    cursor: pointer;
+    color: rgba(36, 46, 82, 0.6);
+  }
   .contact-button {
     background-color: #8b48bf;
     border: none;
@@ -472,13 +472,7 @@ form {
     padding-left: 70px;
     padding-right: 70px;
   }
-  #img-padel {
-    /* width: 540px;
-    height: 461.07px; */
-    /* max-width: 100%;
-    padding: 0; */
-    width: auto;
-  }
+
   h1,
   #padel-text,
   .contact-button {
