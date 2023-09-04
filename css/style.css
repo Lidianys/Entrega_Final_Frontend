@@ -340,10 +340,6 @@ footer {
   justify-content: center;
 }
 
-#footer-logo-container > img {
-  fill: #FFFFFF;
-}
-
 .footer-icons-container {
   display: flex;
   align-items: center;
