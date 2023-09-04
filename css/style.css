@@ -196,6 +196,7 @@ h1 {
   font-size: 39.21px;
   font-weight: 700;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .best-month-card-wrapper > article:nth-child(odd) {
@@ -214,12 +215,14 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: absolute;
+  margin-bottom: 220px;
+  z-index: 2;
 }
 
 #best-month-avatar > img {
   height: 70px;
   width: 70px;
-  padding: 10px;
 }
 
 .best-month-content {
@@ -227,12 +230,12 @@ h1 {
   align-items: center;
   background-color: #fafafa;
   flex-direction: column;
-  /* height: 219px; */
+  height: 219px;
   justify-content: flex-end;
   position: relative;
   padding-right: 10px;
   padding-left: 10px;
-  /* padding-bottom: 30px; */
+  padding-bottom: 30px;
   width: 100%;
 }
 
@@ -240,14 +243,14 @@ h1 {
   color: #3f4868;
   font-size: 16.07px;
   font-weight: 700;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 .best-month-description {
   color: #b9b9c1;
   font-weight: 500;
   line-height: 25.06px;
-  padding: px;
+  text-align: center;
 }
 
 .best-button-container {
