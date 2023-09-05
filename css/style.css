@@ -38,8 +38,7 @@ header {
   width: 107.68px;
 }
 
-nav > ul,
-nav > button {
+.nav-links, nav > button {
   display: none;
 }
 
@@ -127,6 +126,7 @@ h1 {
 }
 .differences-text-movil {
   display: block;
+  padding-right: 80px;
 }
 .differences-text-media {
   display: none;
@@ -136,8 +136,7 @@ h1 {
 .group-differences-main-content {
   display: flex;
   flex-direction: column;
-  padding: 20px;
-  height: 682px;
+  padding: 30px 0px 30px 30px;
   justify-content: space-around;
 }
 .group-differences-content {
@@ -146,7 +145,7 @@ h1 {
   padding-top: 10px;
   padding-bottom: 10px;
   height: 214px;
-  justify-content: space-between;
+  justify-content: space-around;
   align-content: center;
 }
 .number-and-title-content {
@@ -394,7 +393,7 @@ form {
 }
 
 /* Desktop responsive */
-@media (min-width: 480px) {
+@media (min-width: 481px) {
   /* Header */
   nav > button {
     display: block;
@@ -523,7 +522,6 @@ form {
     flex-direction: column;
     width: 100%;
     align-items: center;
-    height: 428px;
     justify-content: space-between;
     background-color: #fafafa;
   }
@@ -547,6 +545,10 @@ form {
     text-align: center;
     flex-wrap: wrap;
     width: 530px;
+  }
+
+  .number-and-title-content {
+    background: transparent;
   }
 
   /* Best of the month */
