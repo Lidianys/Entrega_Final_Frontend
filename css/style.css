@@ -59,6 +59,7 @@ main {
   justify-content: space-around;
   padding: 20px;
 }
+
 .padel-img-content {
   width: 100%;
   height: 70%;
@@ -77,6 +78,7 @@ main {
   justify-content: space-around;
   height: 100%;
 }
+
 h1 {
   font-weight: 700;
   font-size: 50px;
@@ -84,12 +86,14 @@ h1 {
   color: #232c50;
   width: 100%;
 }
+
 #padel-text {
   font-size: 16.56px;
   font-weight: 500;
   text-align: right;
   width: 100%;
 }
+
 .contact-button {
   background-color: #8b48bf;
   border: none;
@@ -111,12 +115,14 @@ h1 {
   background-color: #3cddf3;
   height: 306px;
 }
+
 .differences-title {
   color: white;
   font-weight: 700;
   font-size: 36px;
   padding: 20px;
 }
+
 .differences-text-movil,
 .differences-text-media {
   color: white;
@@ -124,10 +130,12 @@ h1 {
   font-size: 16px;
   padding: 20px;
 }
+
 .differences-text-movil {
   display: block;
   padding-right: 80px;
 }
+
 .differences-text-media {
   display: none;
 }
@@ -139,6 +147,7 @@ h1 {
   padding: 30px 0px 30px 30px;
   justify-content: space-around;
 }
+
 .group-differences-content {
   display: flex;
   flex-direction: column;
@@ -148,6 +157,7 @@ h1 {
   justify-content: space-around;
   align-content: center;
 }
+
 .number-and-title-content {
   display: flex;
   flex-direction: row;
@@ -158,6 +168,7 @@ h1 {
   align-items: flex-start;
   line-height: 43px;
 }
+
 .differences-buttom {
   background-color: #8b48bf;
   color: white;
@@ -166,6 +177,7 @@ h1 {
   height: 100%;
   text-align: center;
 }
+
 .group-differences-title {
   width: 100%;
   height: 100%;
@@ -173,6 +185,7 @@ h1 {
   font-weight: 700;
   padding-left: 10px;
 }
+
 .group-differences-text {
   font-size: 16.3px;
   font-weight: 500;
@@ -353,9 +366,10 @@ footer {
   width: 344px;
 }
 
-.footer-list > li {
+.footer-list > a, .footer-list > a:link, .footer-list > a:visited {
   color: #ffffff;
   font-weight: 400;
+  text-decoration: none;
 }
 
 form {
@@ -372,6 +386,10 @@ form {
   height: 44px;
   padding: 10px 20px;
   width: 308px;
+}
+
+.update-input:focus {
+  color: #1e1e26;
 }
 
 .footer-submit-btn {
@@ -498,14 +516,17 @@ form {
     height: 168px;
     width: 100%;
   }
+
   .title-content {
     width: 50%;
     display: flex;
     justify-content: center;
   }
+
   .different-text-contet {
     width: 50%;
   }
+
   .differences-title {
     width: 80%;
   }
@@ -514,6 +535,7 @@ form {
     display: none;
     width: 80%;
   }
+
   .differences-text-media {
     display: block;
     width: 70%;
@@ -528,6 +550,7 @@ form {
     justify-content: space-between;
     background-color: #fafafa;
   }
+
   .contenedor-group1 {
     display: flex;
     flex-direction: row;
@@ -535,6 +558,7 @@ form {
     flex-wrap: nowrap;
     justify-content: space-evenly;
   }
+
   .contenedor-group2 {
     display: flex;
     flex-direction: row;
@@ -542,6 +566,7 @@ form {
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .group-differences-content {
     margin: 0;
     padding: 20px;
