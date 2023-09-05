@@ -6,7 +6,7 @@ En nuestro producto usamos:
 
 - Estructuras semánticas en HTML.
 - Estrategía de diseño Mobile-first.
-- Uso de media query.
+- Uso de media query para hacerlo responsive.
 - Principalmente ocupamos flexbox para posicionar los elementos.
  
 
@@ -16,7 +16,7 @@ Nuestro trabajo en equipo lo basamos en:
 
 1- Una comunicación constante y trabajo colaborativo.
 
-2-Hicimos pair programming para definir los elementos semánticos de nuestro HTML y establecer la estructura de nuestro proyecto.
+2-Hicimos pair programming al inicio para definir los elementos semánticos de nuestro HTML y establecer la estructura de nuestro proyecto.
 
 3-Nos dividimos las secciones para aplicarles estilos de CSS individualmente aunque estuvimos comunicándonos y apoyándonos en cada paso.
 
