@@ -288,6 +288,9 @@ h1 {
   font-weight: 700;
   line-height: 47.84px;
   margin-bottom: 40px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .get-to-know-btn {
@@ -576,7 +579,15 @@ form {
     flex-direction: row;
     height: 224px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 30px 150px 30px 150px;
+  }
+
+  .get-to-know-title {
+    padding-left: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+    width: 450px;
   }
 
   .get-to-know-btn {
