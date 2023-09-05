@@ -14,7 +14,7 @@
 body {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 100vw;
 }
 
 /* Header */
@@ -412,7 +412,7 @@ form {
     padding: 10px;
     width: 134px;
   }
-  
+
   .header-contact-button:hover {
     background-color: #8b48bfb2;
     cursor: pointer;
@@ -472,8 +472,6 @@ form {
   .padel-text-content {
     height: 100%;
     width: 50%;
-    padding-left: 70px;
-    padding-right: 70px;
   }
 
   h1,
@@ -520,20 +518,21 @@ form {
     align-items: center;
     height: 428px;
     justify-content: space-between;
+    background-color: #fafafa;
   }
   .contenedor-group1 {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 40%;
-    flex-wrap: wrap;
+    /* height: 40%; */
+    flex-wrap: nowrap;
     justify-content: space-evenly;
   }
   .contenedor-group2 {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 40%;
+    /* height: 40%; */
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -543,9 +542,6 @@ form {
     text-align: center;
     flex-wrap: wrap;
     width: 530px;
-  }
-  .number-and-title-content {
-    background: white;
   }
 
   /* Best of the month */
@@ -582,7 +578,7 @@ form {
   }
 
   .get-to-know-btn:hover {
-    background-color: #232C50;
+    background-color: #232c50;
     color: #ffffff;
     cursor: pointer;
   }
@@ -636,8 +632,8 @@ form {
   }
 
   .footer-submit-btn:hover {
-    background-color: #3CDDF3;
-    color: #1E1E26;
+    background-color: #3cddf3;
+    color: #1e1e26;
     cursor: pointer;
   }
 }

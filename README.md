@@ -18,7 +18,7 @@ Nuestro trabajo en equipo lo basamos en:
 
 2-Hicimos pair programming para definir los elementos semánticos de nuestro HTML y establecer la estructura de nuestro proyecto.
 
-3-Nos dividimos las secciones para aplicarles estilos de CSS individualmente aunque estuvimos comunicandonos y apoyandonos en cada paso.
+3-Nos dividimos las secciones para aplicarles estilos de CSS individualmente aunque estuvimos comunicándonos y apoyándonos en cada paso.
 
 4-Ocupamos la herramienta de Git y Github para poder compartirnos las diferentes versiones que fuimos creando.
 
